@@ -5,7 +5,7 @@ function binarySearch(list, element) {
     while(leftIndex <= rightIndex){
         let midIndex = Math.floor((leftIndex + rightIndex) / 2);
         
-        if(element == list[midIndex]){
+        if(element === list[midIndex]){
             return midIndex;
         }
         
